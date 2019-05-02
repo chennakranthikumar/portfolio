@@ -1,0 +1,144 @@
+/* header SECTION tag is hee*/
+.hee {
+  background: #0B0930;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  text-align: center;
+}
+
+/*heading in head section*/
+.hee .he1 {
+  padding-left: 300px;
+}
+
+/* hover:Select and style a link when you mouse over it that can chage spacific context*/
+.hee:hover {
+  background-color: darkred;
+  color: white;
+}
+
+/* image logo in header*/
+.img {
+  border-radius: 50%;
+}
+
+/*cards in the division or section  named as aveng */
+.aveng {
+  width: 24vw;
+  text-align: center;
+  padding: 2vw;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+  background-color: lightblue;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.aveng:hover {
+  background-color: indigo;
+  color: white;
+}
+
+/* each  image in the card is named as cardimg*/
+.cardimg {
+  border-radius: 50%;
+  padding: inherit;
+}
+
+/* box1 contains the cards of the html page*/
+.box1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*footer section of the html page*/
+.foo {
+  background-color: black;
+  color: #ffa500;
+  text-align: center;
+  height: 5vh;
+}
+
+.foo:hover {
+  background-color: indigo;
+  color: white;
+}
+
+/* footer of the footer section*/
+.foo .f1 {
+  padding-top: 2px;
+}
+
+/*media queries for nexus 5 view minium of device width 320px and maximun  of device width 480px*/
+@media (min-device-width:320px) and (max-device-width:480px) {
+  .box1 {
+    width: 98%;
+  }
+
+  .aveng {
+    width: 100vw;
+    border-radius: 5%;
+  }
+
+  .hee {
+    font-size: 15px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .bodym {
+    font-size: 15px;
+  }
+
+  .img {
+    margin-left: 125px;
+  }
+
+  .hee .he1 {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+
+/*media queries for ipad view*/
+@media (min-device-width:481px) and (max-device-width:780px) {
+  .box1 {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+
+  .aveng {
+    width: 40%;
+    padding: 2%;
+  }
+
+  .bodym {
+    font-size: 30px;
+  }
+
+  .he1 {
+    margin-left: -250px;
+    margin-top: 40px;
+  }
+
+  .img {
+    margin-left: 100px;
+  }
+
+  .hee {
+    font-size: 10px;
+  }
+
+  .cardimg {
+    margin: auto;
+  }
+}
