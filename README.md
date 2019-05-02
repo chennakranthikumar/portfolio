@@ -16,7 +16,7 @@ This project is a web based application which is responsive according to the siz
 
 # Conclusion
  This project open according to device display screen width of two different types
-    1. Min device display screen width of 320px to max width 489px.
-    2. Min device display screen width of  481px to 780px.
+    1. Min device display screen width of 320px to max width 489px.  
+    2. Min device display screen width of  481px to 780px.  
 
 ## Hence the responsive web concept is achieved
