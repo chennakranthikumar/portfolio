@@ -32,7 +32,7 @@
   margin-top: 10px;
   box-shadow: 2px 2px 2px 1px black;
   background-color: lightblue;
-  border-radius: 50px;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
+
   margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -84,7 +84,7 @@
 
   .aveng {
     width: 100vw;
-    border-radius: 5%;
+
   }
 
   .hee {
